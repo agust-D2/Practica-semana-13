@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/02/2020, 09:33:36 PM
+    Author     : USUARIO
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #3b3b3b;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  background: #2196F3;
+}
+
+.form{
+    margin-left:auto;
+margin-right:auto;
+}
+
+
+@media screen and (max-width: 580px) {
+  body {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.wrappers {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+.table {
+    text-align:center;
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+
+
+@media screen and (max-width: 200px) {
+  .table {
+    display: block;
+  }
+}
+
+.rown {
+  display: table-row;
+  background: #f6f6f6;
+}
+
+
+.rown:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+
+.rown.header {
+  font-weight: 900;
+  color: #ffffff;
+  background: #ea6153;
+}
+
+.rown.green {
+  background: #27ae60;
+}
+.rown.blue {
+  background: #2980b9;
+}
+
+
+@media screen and (max-width: 200px) {
+  .rown {
+    padding: 7px 0 4px;
+    display: block;
+  }
+  .rown.header {
+    padding: 0;
+    height: 6px;
+  }
+  .rown.header .cell {
+    display: none;
+  }
+  .rown .cell {
+    margin-bottom: 5px;
+  }
+  .rown .cell:before {
+    margin-bottom: 3px;
+    content: attr(data-title);
+    min-width: 25px;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #969696;
+    display: block;
+  }
+}
+
+.cell {
+  padding: 6px 1px;
+  display: table-cell;
+}
+
+
+@media screen and (max-width: 200px) {
+  .cell {
+    padding: 2px 1px;
+  }
+}
+

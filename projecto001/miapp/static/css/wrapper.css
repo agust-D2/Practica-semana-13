@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/01/2020, 01:49:56 PM
+    Author     : USUARIO
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q,samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding: 0;
+    border:0;
+    outline: 0;
+    font-size:100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{
+    display: block;
+}
+
+nav ul{
+    list-style: none;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after{
+    content:'';
+    content:none;
+}
+
+a{
+    margin:0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*change colours to suit your needs*/
+ins{
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark{
+    background-color:#ff9;
+    color:#000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del{
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title]{
+    border-bottom: 1px dotted;
+    cursor:help;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr{
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding: 0;
+}
+
+input, select{
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: ism;
+    src: url('../fonts/iconsocialmedia.tff');
+}
+
+a {
+    color: #810e34;
+    text-decoration: none;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    color: #ffffff;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin-top: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    font-family: Hind;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/02/2020, 09:15:29 AM
+    Author     : Usuario
+*/
+#contenedor{
+        width:100%;
+        margin: 0 auto;
+} 
+
+#izquierda{
+        height:50%;
+        float:left;
+        width:320px;
+}
+#derecha{
+        height:50%;
+        float:right;
+        width:460px;
+}
+
+#izquierda1{
+        height:50%;
+        float:left;
+        width:305px;
+}
+#derecha1{
+        height:50%;
+        float:right;
+        width:445px;
+}
