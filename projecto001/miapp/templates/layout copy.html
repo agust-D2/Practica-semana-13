@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<htm lang="es">
+{% load static %}
+    <head>
+        <meta charset="utf-8" />
+
+        <title>
+            | Nathan Silvera
+        </title>
+
+        <link href="{% static 'css/clase.css' %}" type="text/css" rel="stylesheet" media="screen,projection">
+
+    </head>
+
+    <body>
+        <header>
+            <div id="logotipo">
+                <img src="{% static 'images/favicon/favicon-32x321.png' %}">
+                    
+                <h1>
+                    Proyecto Web (LP3)
+                </h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="/saludo">Mensaje de Saludo</a>
+                </li>
+                <li>
+                    <a href="/rango">Mostrar Numeros [a,b]</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="barra">
+            <span class="esquina-izquierda"></span>
+            <span class="relleno-barra"></span>
+            <span class="esquina-derecha"></span>
+
+        </div>
+
+        <div id="content">
+            <div class="box">
+                {% block content %}
+                <strong>Contenido en layout(Padre)</strong>
+                {% endblock %}
+            </div>
+        </div>
+
+        <footer>
+            UNTELS - LP3 &COPY; Nathan Silvera
+        </footer>
+
+    </body>
+
+    </html>

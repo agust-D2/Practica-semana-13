@@ -1,0 +1,149 @@
+/*Estilos Generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+ 
+body{
+    background-color: #f2f2f2;
+}
+ 
+/* Estilos Cabecera */
+header{
+    width: 1212px;
+    height: 140px;
+    background-color: #2196F3;
+    margin: 0 auto;
+}
+ 
+#logotipo {
+    width: 35%;
+    height: 130px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+ 
+#logotipo img{
+    display: block;
+    width: 60px;
+    float: left;
+    margin-top: 20px;
+}
+ 
+#logotipo h1{
+    display: block;
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: white;
+}
+
+/* ESTILOS PARA LA ZONA DE NAVEGACIÓN (nav) */ 
+/*Zona de Menú*/
+nav{
+    width: 1250px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #b84322;
+    border: 1px solid #c74f2e;
+    box-shadow: 0px 22px 22px gray;
+    font-size: 15 px;
+}
+
+/*Zona de los enlaces*/
+nav ul{
+    list-style: none;
+    text-decoration: none;
+}
+nav ul li{
+    line-height: 40px;
+    float: left;
+}
+
+/*Hipervínculos*/
+nav ul li a{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #d1d4d6;
+}
+
+/*Efectos en los Hipervínculos*/
+nav ul li a:hover{
+    background: #c75a3c;
+    box-shadow: 0px 0px 0px #444 inset;
+    color: white;
+    transition: all 300ms;
+}
+
+/*ESTILO 3D PARA LA BARRA DE MENU*/
+.barra{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.esquina-izquierda{
+    display: block;
+    border-left: 20px solid transparent;
+    border-top: 10px solid #812005;
+    float: left;
+}
+
+.esquina-derecha{
+    display: block;
+    border-right: 20px solid transparent;
+    border-top: 10px solid #812005;
+    float: right;
+}
+
+.relleno-barra{
+    display: block;
+    width: 1210px;
+    height: 10px;
+    background: #812005;
+    float: left;
+}
+
+/*ESTILO PARA EL CONTENIDO*/
+#content{
+    width: 1212px;
+    min-height: 930px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.box{
+    background: white;
+    width: 95%;
+    min-height: 930px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+.title{
+    color: #444;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+/*Estilo para el footer*/
+footer{
+    width: 1250px;
+    background-color: #2196F3;
+    border: 1px solid #1792f7;
+    color: #d1d4d6;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+

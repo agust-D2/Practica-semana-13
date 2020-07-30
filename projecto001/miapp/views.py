@@ -1,5 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from django.shortcuts import redirect
+from django.http import HttpResponseRedirect
+
 
 # Create your views here.
 layout ="""
@@ -25,7 +27,7 @@ def index(request):
 def login(request):
     return render(request, 'login.html')
 
-def registro(request):
+def registro(request):   
     return render(request, 'register.html')
 
 def rango2(request, a, b):
@@ -41,18 +43,19 @@ def rango2(request, a, b):
     return HttpResponse(layout + resultado)
 
 def rango(request,a=10,b=20):
+    
     if a>b:
         return redirect('rango', a=b, b=a)
 
     resultado= f"""
         <h2>Numeros de [{a},{b}]</h2>
         resultado: <br>
-        <u1>
+        <ul>
     """
     while a<=b:
         resultado+= f"<li>{a}</li>"
         a+=1
-    resultado+="</u1>"
+    resultado+="</ul>"
     return HttpResponse(layout + resultado)
 
 #segundo metodo
